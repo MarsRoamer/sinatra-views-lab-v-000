@@ -13,8 +13,8 @@ class App < Sinatra::Base
 	end
 
 	get '/date' do
-		# erb :date
-		"Test data"
+		erb :date
+
 	end
 
 

@@ -7,7 +7,11 @@
   <body>
     <% time = Time.new %>
     <% year = time.year %>
-    <h1><%= time %><br><%= year %></h1>
+    <% day = time.day %>
+    <% wday = time.wday %>
+    <% month = time.month %>
+    <h1>Today</h1>
+    <p>The date is <%= wday %>, <%= month %> <%= day %>, <%= year %></p>
 
   </body>
 </html>

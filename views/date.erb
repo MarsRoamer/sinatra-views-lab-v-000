@@ -10,6 +10,7 @@
     <% day = time.day %>
     <% wday = time.wday %>
     <% month = time.month %>
+    <% formatted = time.strftime("%A, %B %d, %Y")
     <h1>Today</h1>
     <p>The date is <%= wday %>, <%= month %> <%= day %>, <%= year %></p>
 
